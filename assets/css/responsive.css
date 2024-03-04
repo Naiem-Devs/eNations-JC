@@ -1,0 +1,531 @@
+/* Big screen :1200px. */
+@media (min-width: 1600px) and (max-width: 1800px) {
+    .Structure_slider:after, .Structure_slider:before{
+    max-width: 15%;
+    }
+    .Tokenomics-area {
+        background-position: center 85%;
+    }
+}
+
+
+@media (min-width: 1350px) and (max-width: 1460px) {
+    .Structure_slider:after, .Structure_slider:before {
+max-width: 13%;
+}
+}
+
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+    .ENTX_blk {
+        min-width: 690px;
+    }
+    
+    .menu-area nav ul {
+        gap: 20px;
+    }
+    
+    .header_right {
+        gap: 14px;
+    }
+    
+    .roadmap_timeLine ul {
+        gap: 50px;
+    }
+    .Structure_slider:after, .Structure_slider:before{
+        max-width: 19%;
+    }
+
+}
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .container{
+    padding: 0 20px;
+}
+.roadmap-area {
+    padding-bottom: 80px;
+}
+
+.team-area {
+    padding-bottom: 80px;
+}
+
+.Tokenomics-area {
+    background-position: center 74%;
+}
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .ENTX_blk {
+        min-width: 574px;
+    }
+
+.hero_btm_content {
+    gap: 40px;
+}
+    
+    .menu-area nav ul {
+        gap: 20px;
+    }
+    
+    .header_right {
+        gap: 14px;
+        justify-content: end;
+    }
+
+.menu-area {
+    justify-content: end;
+}
+    
+    .roadmap_timeLine ul {
+        gap: 50px;
+    }
+    .Structure_slider:after, .Structure_slider:before{
+        max-width: 18%;
+    }
+    .roadmap_timeLine {
+        min-width: 1400px;
+    }
+    
+    .roadmap_scroll {
+        overflow: auto;
+    }
+    .container{
+    padding: 0 20px;
+}
+.hero_content h1 {
+    font-size: 56px;
+}
+
+.hero_content #countdown ul li span {
+    font-size: 28px;
+}
+
+.hero-area {
+    min-height: 600px;
+}
+
+.thm_btn {
+    padding: 0 30px;
+    height: 54px;
+    font-size: 18px;
+}
+
+.ab-content {
+    padding-left: 20px;
+}
+
+.about-area .row {
+    align-items: center;
+}
+
+
+.pb_100 {
+    padding-bottom: 50px;
+}
+
+.Tokenomics_blk.right {
+    padding-left: 20px;
+}
+
+.Tokenomics_blk.right .Tokenomics_chart {
+    gap: 20px;
+}
+
+.Tokenomics_chart ul {
+    max-width: 220px;
+}
+
+.roadmap-area {
+    padding-bottom: 50px;
+}
+
+.team-area {
+    padding-bottom: 50px;
+}
+.Tokenomics_list ul li h2{
+    font-size: 20px;
+}
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    body{
+        font-size: 15px;
+    }
+    .ENTX_blk {
+        min-width: auto;
+    }
+
+.hero_btm_content {
+    gap: 40px;
+    flex-wrap: wrap;
+}
+    
+    .menu-area nav ul {
+        gap: 20px;
+    }
+    
+    .header_right {
+        gap: 14px;
+        justify-content: end;
+    }
+
+.menu-area {
+    justify-content: end;
+}
+    
+    .roadmap_timeLine ul {
+        gap: 50px;
+    }
+    .Structure_slider:after, .Structure_slider:before{
+        max-width: 25%;
+    }
+    .roadmap_timeLine {
+        min-width: 1400px;
+    }
+    
+    .roadmap_scroll {
+        overflow: auto;
+    }
+    .container{
+    padding: 0 20px;
+}
+.hero_content h1 {
+    font-size: 40px;
+    min-width: auto;
+    max-width: 335px;
+}
+
+.hero_content #countdown ul li span {
+    font-size: 22px;
+}
+
+.hero-area {
+    min-height: 670px;
+    height: 100vh;
+}
+
+.hero_content #countdown ul li {
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+}
+
+.thm_btn {
+    padding: 0 30px;
+    height: 54px;
+    font-size: 18px;
+}
+
+.ab-content {
+    padding-left: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.about-area .row {
+    align-items: center;
+}
+
+
+.pb_100 {
+    padding-bottom: 50px;
+}
+
+.Tokenomics-area {
+    background-repeat: no-repeat;
+    background-position: center 31%;
+}
+
+.pt_150 {
+    padding-top: 100px;
+}
+
+.Tokenomics_blk.right {
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.Tokenomics_blk.right .Tokenomics_chart {
+    gap: 20px;
+}
+
+.Tokenomics_chart ul {
+    max-width: 320px;
+}
+
+.Tokenomics_chart {
+    justify-content: space-around;
+}
+
+.Tokenomics_blk h5 {
+    text-align: center;
+}
+
+.roadmap-area {
+    padding-bottom: 50px;
+}
+
+.team-area {
+    padding-bottom: 50px;
+}
+
+.team-area .container {
+    max-width: 540px;
+}
+.Tokenomics_list ul li h2{
+    font-size: 18px;
+}
+.ab_img {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.Tokenomics_list ul li span {
+    font-size: 14px;
+}
+
+.Tokenomics_list {
+    margin: 20px 0 70px;
+}
+
+.sec_title {
+    text-align: center;
+}
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    body{
+        font-size: 15px;
+    }
+    .ENTX_blk {
+        min-width: auto;
+    }
+
+.hero_btm_content {
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero_btm_content > span {
+    color: #fff;
+}
+
+.ENTX_blk i:after {
+    max-width: 30%;
+}
+    
+    .menu-area nav ul {
+        gap: 20px;
+    }
+    
+    .header_right {
+        gap: 14px;
+        justify-content: end;
+    }
+
+.header_right .js {
+    display: none;
+}
+
+.header_right .login {
+    font-size: 16px;
+    width: 100px;
+    height: 44px;
+}
+
+.menu-area {
+    justify-content: end;
+}
+    
+    .roadmap_timeLine ul {
+        gap: 50px;
+    }
+    .Structure_slider:after, .Structure_slider:before{
+        max-width: 18%;
+    }
+    .roadmap_timeLine {
+        min-width: 606px;
+        padding-right: 100px;
+    }
+
+.roadmap_timeLine:before {
+    min-width: 362px;
+}
+    
+    .roadmap_scroll {
+        overflow: auto;
+    }
+
+.roadmap_timeLine:after {
+    min-width: 1248px;
+}
+    .container{
+    padding: 0 20px;
+}
+.hero_content h1 {
+    font-size: 30px;
+    min-width: auto;
+    max-width: 270px;
+}
+
+.hero_content #countdown ul li span {
+    font-size: 22px;
+}
+
+.hero-area {
+    min-height: 733px;
+    height: 100vh;
+}
+
+.social_link {
+    right: 20px;
+}
+
+.hero_content #countdown ul li {
+    width: 90px;
+    height: 90px;
+    font-size: 15px;
+}
+
+.hero_content #countdown ul {
+    flex-wrap: wrap;
+    max-width: 200px;
+    gap: 15px;
+}
+
+.thm_btn {
+    padding: 0 30px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.ab-content {
+    padding-left: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.about-area .row {
+    align-items: center;
+}
+
+
+.pb_100 {
+    padding-bottom: 50px;
+}
+
+.Tokenomics-area {
+    background-repeat: no-repeat;
+    background-position: center 31%;
+    padding-bottom: 0;
+}
+
+.pt_150 {
+    padding-top: 100px;
+}
+
+.Tokenomics_blk.right {
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.Tokenomics_blk.right .Tokenomics_chart {
+    gap: 20px;
+}
+
+.Tokenomics_chart ul {
+    max-width: 320px;
+}
+
+.Tokenomics_chart {
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Tokenomics_blk h5 {
+    text-align: center;
+}
+
+.roadmap-area {
+    padding-bottom: 50px;
+}
+
+.pt_100 {
+    padding-top: 70px;
+}
+
+.accordion-button {
+    padding: 20px 10px;
+    padding-left: 0;
+    font-size: 13px;
+}
+
+footer.footer-area h5 {
+    font-size: 15px;
+}
+
+.team-area {
+    padding-bottom: 50px;
+}
+
+.team_blk {
+    margin-top: 40px;
+}
+
+.team-area .container {
+    max-width: 540px;
+}
+.Tokenomics_list ul li h2{
+    font-size: 18px;
+}
+.ab_img {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.ab_img a img {
+    max-width: 70px;
+}
+
+.Tokenomics_list ul li span {
+    font-size: 14px;
+}
+
+.Tokenomics_list ul {
+    flex-direction: column;
+}
+
+.Tokenomics_list {
+    margin: 20px 0 70px;
+}
+
+.sec_title {
+    text-align: center;
+}
+h1{
+    font-size: var(--f24);
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.Structure_slider:after, .Structure_slider:before {
+    max-width: 17.5%;
+}
+}
